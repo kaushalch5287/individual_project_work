@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Table Form</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Table Form</h1>
+
+  <form action="/save" method="POST">
+    <table>
+      <tr>
+        <th>Raw Material Name</th>
+        <th>Material In By</th>
+        <th>Approved By</th>
+        <th>Date</th>
+      </tr>
+      <tr>
+        <td><input type="text" name="rawMaterialName"></td>
+        <td><input type="text" name="materialInBy"></td>
+        <td><input type="text" name="approvedBy"></td>
+        <td><input type="date" name="date"></td>
+      </tr>
+    </table>
+    <div class="buttons">
+      <button type="submit">Save All</button>
+      <button type="reset">Clear All</button>
+    </div>
+  </form>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
