@@ -3,6 +3,7 @@
 <head>
   <title>Table Form</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="script.js"></script>
 </head>
 <body>
   <div class="container">
@@ -21,7 +22,7 @@
         </tr>
         <tr>
           <td><input type="text" name="rawMaterialName"></td>
-          <td><input type="text" name="materialInBy"></td>
+          <td><input type="text" name="Quantity"></td>
           <td><input type="text" name="approvedBy"></td>
           <td><input type="date" name="date"></td>
         </tr>
@@ -29,8 +30,8 @@
     </div>
     
     <div class="buttons">
-      <button type="submit">Save All</button>
-      <button type="reset">Clear All</button>
+      <button type="button" id="saveAllButton">Save All</button>
+      <button type="button" id="clearAllButton">Clear All</button>
     </div>
   </div>
 </body>
